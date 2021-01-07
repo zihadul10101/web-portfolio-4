@@ -1,101 +1,94 @@
-body{
-    font-family: 'Roboto', sans-serif;
+.name-highlight{
+    color: orange;
 }
-h1{
-    font-size: 180px;
-}
-h2{
-    font-size: 25px;
+h4{
+    font-size: 15px;
 }
 p{
-    color: dimgrey;
+    color: dimgray;
 }
-.name-highlight{
-    color: orangered;
-    text-align: center;
-}
-.half-width-one{
-    width: 40%;
-    float: left;
-    margin-left:5%;
-    padding-left: 2%;
-    background-color: whitesmoke;
-}
-.half-width-one img{
-    width: 40%;
-}
-.half-width-two{
-    width: 40%;
-    float: right;
-    margin-left:5%;
-    padding-left: 2%;
-    background-color: whitesmoke;  
-}
-.half-width-two img{
-    width: 115%;
-}
-.link-button{
-    text-decoration: none;
-    background-image: linear-gradient(180deg, lightsalmon, orangered);
-    padding: 10px 20px;
+.ancor-button{
+    text-decoration:none ;
+    background-color: orange;
+    padding: 10px 15px;
     border-radius: 5px;
-    color: whitesmoke;
+    color: white;
     font-weight: 700;
-}  
-.btn{
-    background-color: orangered;
-    color: whitesmoke;
-    border: none;
-    padding: 12px 30px;
-    cursor: pointer;
-    font-size: 10px;
-    border-radius: 10%;
-    font-weight: 700;
-}
-.fa-download{
-    color: whitesmoke;
-    background-color: tomato;
-    font-size: 20px;
-    border: none;
-    padding: 12px 30px;
-    cursor: pointer
-}
-.table{
-    width: 25%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 5px;
-    height: 100%;
-    display: block;
-    clear: both;
-}
-.table h3{
-    color: black;
-    text-align: center;
-}
-.text-center{
-    text-align: center;
-}
-.table p{
-    color: black;
-    text-align: center;
-    column-count: 3;
-    column-gap: 40px;
-    column-rule: 1px solid orangered;
-}  
-.table a{
-    text-decoration: none;
-}
-.table img{
-widows: 100%;
-}
-.contain{
-    height: 500px;
-    background-color: brown;
-}
-.top-banner{
-    padding: 5px;
-}
 
+}
+.divate-1 img{
+    height: 15%;
+    width: 100%;
+    padding-right: 20px;
+
+}
+.divate-1{margin-left: 5%;
+    float: left;
+    width: 40%;
+}
+section{
+    height:500px ;
+    padding-bottom: 15%;
+}
+.divate-2 img{
+    height:15%;
+    width: 100%;
+    padding-right: 20px;
+
+}
+.divate-2{margin-right: 5%;
+    float: right;
+    width: 40%;
+    margin-top: 20px;
+}
+.text{
+    text-align: center;
+}
+.box{
+    width: 28%;
+    float:left;
+    border: 5px solid whitesmoke;
+    text-align: center;
+    margin: 5px;
+
+}
+.box img{
+    width:40%;
+}
+.highlight{
+    background-image: linear-gradient(180deg white);
+}
+.buttom{
+    background-image: url(image/dj.png);
+background-size: 20%;
+background-repeat: no-repeat;
+background-position: center;
+text-align: center;
+}
+.aligan{
+    text-align: center;
+}
+.help-box{
+    width: 70%;
+    margin: auto;
+    background-color: blue;
+    padding: 58px 38px;
+    border-radius: 30px;
+}
+.box-single{
+    width: 58%;
+    float: left;
+}
+.btn{
+    display:inline-block;
+    background-color: red;
+    color:white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 50px;
+}
+.box-btn{
+    text-align: right;
+    color:green;
+}
